@@ -1,0 +1,116 @@
+.Cardb { 
+    width: 240px;
+    height: 255px;
+    margin: 15px;
+    border: 1px solid #3b5998;
+    background-color: #e0e6f5;
+    box-shadow: 5px 5px rgba(7, 7, 7, 0.541);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    overflow-wrap: break-word
+}
+
+.user_datab{
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+}
+
+.avatarb{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infob{
+    flex:3;
+    display: flex;
+    flex-direction:column;
+    padding-left: 10px;
+    text-decoration:none;
+    align-items:center;
+}
+
+.infob p{
+  margin:0 ;  
+  height:30% 
+}
+
+.board_contentb{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5%;
+}
+
+.p1b{
+    transition: 1s;
+    border:2px solid #504990;
+    border-radius: 10px;
+    padding: 3%;
+    font-size: 100%;
+    width:max-content;
+    height:min-content;
+    margin: 0px;
+    overflow: hidden;
+    display: flex;
+    align-self: flex-start;
+}
+
+.p1b:hover{
+    transition: 1s;
+    background-color: pink;
+    height:max-content;
+
+}
+
+.p2b{
+    border:2px solid #504990;
+    border-radius: 10px;
+    padding: 3%;
+    font-size: 80%;
+    margin: 4px;
+    width: max-content;
+    display: block;
+    align-self: flex-end;
+}
+
+.p2b:hover{
+    transition: 1s;
+    background-color: pink;
+}
+
+.p3b{
+    border:2px solid #504990;
+    border-radius: 10px;
+    padding: 5%;
+    font-size: 80%;
+    margin: 3px;
+    width: max-content;
+    height: min-content;
+    position: relative;
+    left:20%
+
+}
+
+.p3b:hover{
+    transition: 1s;
+    background-color: pink;
+
+}
+
+.Dissapearsecb{
+    display: flex;
+    height: 20%;
+    padding-left: 5%;
+    text-align: center;
+}
+
+
+.caption{
+    color:red
+}

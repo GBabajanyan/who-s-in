@@ -1,0 +1,98 @@
+.boardsScreen {
+    width:100%;
+    height:100%;
+    margin:0;
+    display:flex;
+    flex-direction: column;
+  }
+  
+  .contUp {
+    width:100%;
+    height:95%;
+    display: flex;
+    transition: 2s;
+    background-image: url('../../img/background.png');
+    background-repeat:no-repeat; 
+    background-size: cover;
+  
+    }
+
+  .contDown {
+    width:100%;
+    height:75%;
+    display: flex;
+    transition: 2s;
+    background-image: url('../../img/background.png');
+    background-repeat:no-repeat;
+    background-size: cover;
+    }
+
+  .sideOpened{
+    transition:2s;
+    width:30%;
+    height:60%;
+    display: flex;
+    align-self: center;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border:2px solid #3b5998;
+    overflow: hidden;
+  background-color: rgba(68, 65, 65, 0.5);
+
+  }
+
+  .sideClosed{
+    transition: 2s;
+    width:3%;
+    height:60%;
+    display: flex;
+    align-self: center;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border:2px solid #3b5998;
+    overflow: hidden;
+    
+  }
+
+  .opened{
+    transition: 2s;
+    width:10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .closed{
+    transition: 2s;
+    width:100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .boardsBig{
+    transition: 2s;
+    width: 97%;
+    height: 100%;
+    display: flex;
+    overflow: auto;
+    flex-wrap: wrap;
+    padding-left: 10%;
+  }
+
+  .boardsSmall{
+    transition: 2s;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    overflow: auto;
+    background-size: cover;
+    flex-wrap: wrap;
+    padding-left: 5%;
+
+  }
+
+
+
+
+ 
